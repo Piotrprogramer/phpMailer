@@ -1,0 +1,13 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "twig/twig": "^3.7"
+    },
+    "autoload": {
+        "psr-4": {
+           
+            "vendor\\": "PHPMailer/src/"
+        },
+        "files": ["vendor/autoload.php"]
+    }
+}
